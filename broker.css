@@ -26,7 +26,7 @@
   align-items: center;
   align-content: center;
   width: 700px;
-  height: 200px;
+  height: 300px;
   margin-left: 360px;
 }
 .stream {
@@ -38,6 +38,7 @@
   color: #364ce5;
 }
 .for {
+    width: 500px;
   font-family: Poppins;
   font-size: 20px;
   font-weight: 400;
@@ -45,6 +46,20 @@
   letter-spacing: 0em;
   text-align: center;
   color: antiquewhite;
+}
+button{
+    color: antiquewhite;
+    width: 125px;
+    height: 47px;
+    background-color: #364ce5;
+    border: none;
+    border-radius: 7px;
+}
+.button:hover{
+    transition-behavior: 0.5sec;
+    background-color: antiquewhite;
+    color: black;
+    cursor: pointer;
 }
 .foot{
     display: flex;
